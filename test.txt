@@ -2,3 +2,6 @@
 path = "/Users/marikdeveloper/aca_data/ACA_data/test.txt"
 with open(path, "w", encoding="utf-8") as f:
     f.write("էս փորձնական ա\n")
+
+
+Էս արդեն git-ում ուղղակի գրածն ա
