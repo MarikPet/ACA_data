@@ -5,12 +5,14 @@
 1. Create a repo in GitHub
 2. Copy the link of the repo
 3. Open the Terminal
-4. Type
+4. Type this (replace the link with your repo's actual link):
 
    ```bash
 
    git clone https://github.com/username/myrepo.git
    ```
+
+   Click *Enter*. (Do this after every command to execute it.)
 
 5. Type this to open VSCode
 
@@ -19,14 +21,41 @@
    code . 
    ```
 
-6. Open the repo folder
-8. Create a file in the folder
-9.  In Terminal write `git add <your_new_file_name>`
-10. Type `git commit -m "a meaningful message"`
-11. Type `git push`
-12. Go to your GitHub account on browser and see your file added to the remote repo
+6. In the repo folder in VSCode
+7. Create a file in the folder
+8. In Terminal write 
 
-**Good lack**  :smile:
+   ``` bash
+
+    git add <your_new_file_name>
+   ```
+
+9. Type:
+
+   ``` bash
+
+    git commit -m "a meaningful message"
+   ```
+
+10. Type
+
+   ``` bash
+
+    git push
+   ```
+
+11. Go to your GitHub account on browser and see your file added to the remote repo.
+12. In GitHub add something in your new file or add a new file.
+13. In Terminal type:
+
+    ```bash
+
+    git pull
+    ```
+
+    You'll see the changes done in GitHb in your local folder.
+
+**Good lack** :smile:
 
 ***Եղա՞վ***
 
