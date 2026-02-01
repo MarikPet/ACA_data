@@ -2,5 +2,5 @@
 
 - :smile:
 - :rocket:
-- :thumbs up:
+- :thumbsup:
 - :snowflakes:
