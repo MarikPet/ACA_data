@@ -21,32 +21,31 @@
    code . 
    ```
 
-6. In the repo folder in VSCode
-7. Create a file in the folder
-8. In Terminal write 
+6. Create a file in the repo folder in VSCode  
+7. In Terminal write:
 
    ``` bash
 
     git add <your_new_file_name>
    ```
 
-9. Type:
+8. Type:
 
    ``` bash
 
     git commit -m "a meaningful message"
    ```
 
-10. Type
+9. Type
 
    ``` bash
 
     git push
    ```
 
-11. Go to your GitHub account on browser and see your file added to the remote repo.
-12. In GitHub add something in your new file or add a new file.
-13. In Terminal type:
+10. Go to your GitHub account on browser and see your file added to the remote repo.
+11. In GitHub add something in your new file or add a new file.
+12. In Terminal type:
 
     ```bash
 
