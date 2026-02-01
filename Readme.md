@@ -5,9 +5,9 @@
 1. Create a repo in GitHub
 2. Copy the link of the repo
 3. Open the Terminal
-4. Type```bash 
+4. Type
+   ```bash 
    `git clone https://github.com/username/myrepo.git`
-    ```click *Enter* (*Do this after each step in Terminal*)```
 6. Type `code .` to open VSCode
 7. Open the repo folder
 8. Create a file in the folder
