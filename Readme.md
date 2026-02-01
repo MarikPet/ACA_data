@@ -2,9 +2,9 @@
 
 ## Steps
 
-1. Create a repo in GitHub
+1. Create a repo in **GitHub**
 2. Copy the link of the repo
-3. Open the Terminal
+3. Open the **Terminal**
 4. Type this (replace the link with your repo's actual link):
 
    ```bash
@@ -14,7 +14,7 @@
 
    Click *Enter*. (Do this after every command to execute it.)
 
-5. Type this to open VSCode
+5. Type this to open **VSCode**
 
    ```bash
 
@@ -26,7 +26,7 @@
 
    ``` bash
 
-    git add your_new_file_name
+   git add your_new_file_name
    ```
 
    In case you've changed multiple files, type:
@@ -39,14 +39,14 @@
 
    ``` bash
 
-    git commit -m "a meaningful message"
+   git commit -m "a meaningful message"
    ```
 
 9. Type
 
    ``` bash
 
-    git push
+   git push
    ```
 
 10. Go to your GitHub account on browser and see your file added to the remote repo.
