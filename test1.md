@@ -2,4 +2,4 @@
 
 - :smile:
 - :rocket:
-- :thumb-up:
+- :thumb:
