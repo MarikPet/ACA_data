@@ -6,12 +6,20 @@
 2. Copy the link of the repo
 3. Open the Terminal
 4. Type
-   ```bash 
-   `git clone https://github.com/username/myrepo.git`
 
-     ```click *Enter* (*Do this after each step in Terminal*)```
-6. Type `code .` to open VSCode
-7. Open the repo folder
+   ```bash
+
+   git clone https://github.com/username/myrepo.git
+   ```
+
+5. Type this to open VSCode
+
+   ```bash
+
+   code . 
+   ```
+
+6. Open the repo folder
 8. Create a file in the folder
 9.  In Terminal write `git add <your_new_file_name>`
 10. Type `git commit -m "a meaningful message"`
