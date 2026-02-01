@@ -26,7 +26,13 @@
 
    ``` bash
 
-    git add <your_new_file_name>
+    git add your_new_file_name
+   ```
+
+   In case you've changed multiple files, type:
+
+   ```bash
+   git add .
    ```
 
 8. Type:
