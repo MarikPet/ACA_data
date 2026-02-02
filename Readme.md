@@ -51,7 +51,7 @@
    git push
    ```
 
-10. Go to your GitHub account on browser and see your file added to the remote repo.
+10. Go to your GitHub account on browser and see your file added to the remote repo. ✅
 11. In GitHub add something in your new file or add a new file.
 12. In Terminal type:
 
@@ -60,9 +60,9 @@
     git pull
     ```
 
-    You'll see the changes done in GitHb in your local folder.
+    You'll see the changes done in GitHb in your local folder. ✅
 
-**Good lack** :smile:
+**Done** :smile:
 
 ***Եղա՞վ***
 
