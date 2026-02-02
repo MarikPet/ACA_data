@@ -1,6 +1,8 @@
-# Working with GitHub
+# ACA_data
 
-## Steps
+📌 ## Working with GitHub
+
+:rocket: ### Steps
 
 1. Create a repo in **GitHub**
 2. Copy the link of the repo
