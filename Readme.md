@@ -64,7 +64,4 @@
 
 **Done** :smile:
 
-***Եղա՞վ***
-
-:thumbsup: :thumbsup: :thumbsup:
 🎉 🎉 🎉
