@@ -1,8 +1,0 @@
-# write Armenian test string to file
-
-էս փորձնական ա
-
-
-Էս արդեն git-ում ուղղակի գրածն ա
-
-let's try again
