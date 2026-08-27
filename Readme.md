@@ -1,67 +1,60 @@
-# ACA_data
+# Excel Statistical Analysis & Hypothesis Testing Portfolio
 
-## 📌 Working with GitHub
+[![Excel](https://shields.io)](https://microsoft.com)
+[![License: MIT](https://shields.io)](https://opensource.org)
+[![Analytics](https://shields.io)](https://github.com)
 
-### :rocket: Steps
+Welcome to the **Excel Statistical Analysis Portfolio**. This repository showcases advanced statistical modeling, data validation, and hypothesis testing pipelines engineered entirely within Microsoft Excel. It demonstrates how to leverage native spreadsheet architectures to run rigorous statistical validations for business decision-making.
 
-1. Create a repo in **GitHub**
-2. Copy the link of the repo
-3. Open the **Terminal**
-4. Type this (replace the link with your repo's actual link):
+---
 
-   ```bash
+## 📂 Repository Structure
 
-   git clone https://github.com/username/myrepo.git
-   ```
+The project artifacts are structured as follows to ensure clean navigation and file integrity:
 
-   Click *Enter*. (Do this after every command to execute it.)
+```text
+├── models/                     # Production spreadsheet workbooks (.xlsx)
+├── docs/                       # Academic papers and reference material
+│   └── Hypothesis_testing.pdf  # Comprehensive theoretical breakdown of statistical tests
+└── README.md                   # Project documentation and dashboard
+```
 
-5. Type this to open **VSCode**
+---
 
-   ```bash
+## 🎯 Core Analytics & Excel Features
 
-   code . 
-   ```
+### 1. Hypothesis Testing Frameworks
+* **Parametric Testing**: Built-in evaluation models tracking T-Tests (Independent/Paired), Z-Tests, and ANOVA (Analysis of Variance) structures.
+* **Non-Parametric Analysis**: Implementation tracking for Chi-Square Test of Independence for categorical distributions.
+* **Statistical Integrity Protection**: Data validation logic checking for distribution variances, sample sizes, and outlier metrics before running test mechanisms.
 
-6. Create a file in the repo folder in VSCode  
-7. In Terminal write:
+### 2. Analytical Presentation
+* **Hypothesis_testing.pdf**: A structured companion guide breaking down the underlying mathematical theories, test selections, and p-value interpretations behind the spreadsheet models.
 
-   ``` bash
+---
 
-   git add your_new_file_name
-   ```
+## 🚀 How to Use the Models
 
-   In case you've changed multiple files, type:
+### Prerequisites
+To interact with the models with full formula integrity, you will need:
+* Microsoft Excel 2021 or Microsoft 365 (Recommended for Dynamic Arrays)
+* **Analysis Toolpak Add-in** enabled (Go to `File` > `Options` > `Add-ins` > `Excel Add-ins` > Check `Analysis Toolpak`)
 
-   ```bash
-   git add .
-   ```
+### Getting Started
+1. **Download the Workbook**: Navigate to the `models/` directory, select the `.xlsx` file, and click **Download raw file**.
+2. **Review the Theory**: Open `docs/Hypothesis_testing.pdf` to review the statistical frameworks and criteria used to construct the models.
+3. **Analyze**: Input your custom data arrays into the designated input cells to watch the automated p-value calculators dynamically update.
 
-8. Type:
+---
 
-   ``` bash
+## 🛠️ Excel Technical Stack
 
-   git commit -m "a meaningful message"
-   ```
+* **Toolpak Engines**: Descriptive Statistics, Anova: Single Factor, t-Test: Two-Sample Assuming Unequal Variances.
+* **Core Functions**: `T.TEST()`, `CHISQ.TEST()`, `Z.TEST()`, `AVERAGE()`, `STDEV.S()`, `NORM.DIST()`.
+* **Logic Architecture**: Dynamic array formulas, conditional formatting for significance thresholds ($\alpha = 0.05$), and automated statistical inference text blocks.
 
-9. Type
+---
 
-   ``` bash
+## 📄 License
 
-   git push
-   ```
-
-10. Go to your GitHub account on browser and see your file added to the remote repo. ✅
-11. In GitHub add something in your new file or add a new file.
-12. In Terminal type:
-
-    ```bash
-
-    git pull
-    ```
-
-    You'll see the changes done in GitHb in your local folder. ✅
-
-**Done** :smile:
-
-🎉 🎉 🎉
+This portfolio project is open-source and licensed under the terms of the [MIT License](https://opensource.org).
