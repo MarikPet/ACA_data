@@ -1,60 +1,41 @@
-# Excel Statistical Analysis & Hypothesis Testing Portfolio
+# Web Marketing Campaign: A/B Hypothesis Testing & Operational Performance Metrics
 
-[![Excel](https://shields.io)](https://microsoft.com)
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Analytics](https://shields.io)](https://github.com)
+## 📊 Project Overview
+This project delivers a rigorous, data-driven statistical evaluation of a Web Marketing Campaign's performance impact on user engagement. Utilizing a dataset tracking web visitor telemetry logs from June 2025, the objective was to determine whether a strategic spring marketing push successfully generated a statistically meaningful increase in average user session durations against historical operational baselines. 
 
-Welcome to the **Excel Statistical Analysis Portfolio**. This repository showcases advanced statistical modeling, data validation, and hypothesis testing pipelines engineered entirely within Microsoft Excel. It demonstrates how to leverage native spreadsheet architectures to run rigorous statistical validations for business decision-making.
+The entire data cleaning, exploratory analysis, and parametric statistical modeling lifecycle was executed natively using **Advanced Microsoft Excel**.
 
----
+## 🎯 Business Question & Hypothesis Staging
+The core corporate analytical question addressed was: *“Did the spring web marketing initiative cause a statistically significant increase in the time users spend engaged on our platform, or is the observed variance merely a result of random noise?”*
 
-## 📂 Repository Structure
+To evaluate the operational impact velocity with absolute mathematical confidence, a right-tailed one-sample hypothesis test was framed:
+*   **Null Hypothesis ($H_0$):** $\mu \le 120$ seconds (The marketing campaign had no positive effect; average session duration remains equal to or less than the historical baseline).
+*   **Alternative Hypothesis ($H_1$):** $\mu > 120$ seconds (The marketing campaign successfully drove a statistically significant increase in user engagement duration).
 
-The project artifacts are structured as follows to ensure clean navigation and file integrity:
+## 🛠️ Data Cleansing & Analytical Methodology
+Prior to statistical testing, the raw telemetry data was scrubbed and profiled to ensure complete ledger data quality:
+1.  **Data Standardizing:** Standardized messy session logs, handled timestamp parameters, and eliminated null record attributes to preserve sample variance.
+2.  **Dataset Profiling:** Extracted descriptive statistics to evaluate the underlying distribution rules:
+    *   **Sample Size ($n$):** 81 active users
+    *   **Sample Mean ($\bar{x}$):** 342 seconds
+    *   **Sample Standard Deviation ($s$):** 154 seconds
+    *   **Degrees of Freedom ($df$):** 80 ($n - 1$)
+    *   **Significance Alpha ($\alpha$):** 0.05 (95% Confidence Interval)
 
-```text
-├── models/                     # Production spreadsheet workbooks (.xlsx)
-├── docs/                       # Academic papers and reference material
-│   └── Hypothesis_testing.pdf  # Comprehensive theoretical breakdown of statistical tests
-└── README.md                   # Project documentation and dashboard
-```
+## 📈 Statistical Modeling & Result
+Because the true population variance was unknown, an **Independent One-Sample Right-Tailed T-Test** was engineered directly inside Excel. 
 
----
+Using the structural T-statistic formula:
+$$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}$$
 
-## 🎯 Core Analytics & Excel Features
+*   **Calculated Test Statistic ($t_{calc}$):** **13.0**
+*   **Critical Threshold Value ($t_{crit}$):** **1.664** (Sourced from the standard t-distribution table at $df = 80, \alpha = 0.05$)
 
-### 1. Hypothesis Testing Frameworks
-* **Parametric Testing**: Built-in evaluation models tracking T-Tests (Independent/Paired), Z-Tests, and ANOVA (Analysis of Variance) structures.
-* **Non-Parametric Analysis**: Implementation tracking for Chi-Square Test of Independence for categorical distributions.
-* **Statistical Integrity Protection**: Data validation logic checking for distribution variances, sample sizes, and outlier metrics before running test mechanisms.
+### 📌 Conclusion
+The calculated test statistic ($13.0$) falls significantly deeper into the right-tailed critical region than the required critical threshold boundary ($1.664$). Consequently, we **reject the Null Hypothesis ($H_0$)** with over 95% mathematical confidence. 
 
-### 2. Analytical Presentation
-* **Hypothesis_testing.pdf**: A structured companion guide breaking down the underlying mathematical theories, test selections, and p-value interpretations behind the spreadsheet models.
+This provides definitive statistical proof that the Web Marketing Campaign effectively shifted consumer behavior, driving a highly significant increase in user platform session duration and providing data-backed justification for long-term product funding allocations.
 
----
-
-## 🚀 How to Use the Models
-
-### Prerequisites
-To interact with the models with full formula integrity, you will need:
-* Microsoft Excel 2021 or Microsoft 365 (Recommended for Dynamic Arrays)
-* **Analysis Toolpak Add-in** enabled (Go to `File` > `Options` > `Add-ins` > `Excel Add-ins` > Check `Analysis Toolpak`)
-
-### Getting Started
-1. **Download the Workbook**: Navigate to the `models/` directory, select the `.xlsx` file, and click **Download raw file**.
-2. **Review the Theory**: Open `docs/Hypothesis_testing.pdf` to review the statistical frameworks and criteria used to construct the models.
-3. **Analyze**: Input your custom data arrays into the designated input cells to watch the automated p-value calculators dynamically update.
-
----
-
-## 🛠️ Excel Technical Stack
-
-* **Toolpak Engines**: Descriptive Statistics, Anova: Single Factor, t-Test: Two-Sample Assuming Unequal Variances.
-* **Core Functions**: `T.TEST()`, `CHISQ.TEST()`, `Z.TEST()`, `AVERAGE()`, `STDEV.S()`, `NORM.DIST()`.
-* **Logic Architecture**: Dynamic array formulas, conditional formatting for significance thresholds ($\alpha = 0.05$), and automated statistical inference text blocks.
-
----
-
-## 📄 License
-
-This portfolio project is open-source and licensed under the terms of the [MIT License](https://opensource.org).
+## 📂 Repository Contents
+*   `📊 Web_Marketing_Campaign_Analysis.xlsx` - Master spreadsheet containing raw telemetry logs, data-cleaning steps, and active T-test formula architectures.
+*   `📁 Hypothesis_testing.pdf` / `.pptx` - Executive data storytelling deck translating statistical outputs into operational product strategy metrics.
